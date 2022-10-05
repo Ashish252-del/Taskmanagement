@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabclass {
+  margin-left: 200px;
+  margin-top: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.inputbox textarea {
+  width: 60%;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-color: black;
+}
+
+.postbox {
+  width: 90%;
+  padding: 10px;
+  background-color: white;
+  height: 100px;
+}
+
+.postbuton {
+  padding: 5px;
+  width: 100px;
+  background-color: orange;
   color: white;
+  border-radius: 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.addtask {
+  padding: 5px;
+  width: auto;
+  background-color: orange;
+  color: white;
+  margin-bottom: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.taskbox {
+  background-color: white;
+  padding: 2px;
+  border: 2px solid orange;
+}
+
+.taskrow {
+  height: auto;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: skyblue;
+  color: black;
+  border: 2px solid black;
+}
+
+.tasklist {
+  background-color: lightpink;
+  height: 500px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
+}
+
+.taskname {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.progressbutton {
+  background-color: aqua;
+  color: black;
+}
+
+.completebutton {
+  background-color: palegreen;
+  color: black;
+}
+
+.progresslist {
+  background-color: aqua;
+  height: 500px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
+}
+
+.successlist {
+  background-color: palegreen;
+  height: 500px;
+  border: 2px solid seagreen;
+  border-radius: 1%;
+  padding: 8px;
 }

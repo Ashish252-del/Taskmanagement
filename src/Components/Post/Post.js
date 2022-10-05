@@ -26,9 +26,10 @@ const Post = () => {
                     <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <hr/>
                     <div class="d-flex justify-content-between align-items-center">
-                                    <div class="d-flex flex-row muted-color" onClick={()=>setlike(!like)}> <span>{ (like===false)?<FavoriteBorderIcon/>:<FavoriteIcon style={{ color: 'red' }} />}</span> </div>
-                        <div class="d-flex flex-row muted-color"> <span><InsertCommentIcon/></span></div>
-                        <div class="d-flex flex-row muted-color" onClick={()=>setsave(!save)}> <span>{ (save===false)?<BookmarkBorderIcon/>:<BookmarkIcon/>}</span></div>
+                                    <div class="d-flex flex-row muted-color" onClick={()=>setlike(!like)}  style={{ cursor: "pointer" }}
+                  > <span>{ (like===false)?<FavoriteBorderIcon/>:<FavoriteIcon style={{ color: 'red' }} />}</span> </div>
+                        <div class="d-flex flex-row muted-color" style={{ cursor: "pointer" }}> <span><InsertCommentIcon/></span></div>
+                        <div class="d-flex flex-row muted-color" onClick={()=>setsave(!save)} style={{ cursor: "pointer" }}> <span>{ (save===false)?<BookmarkBorderIcon/>:<BookmarkIcon/>}</span></div>
                        
                     </div>
                     <hr/>
